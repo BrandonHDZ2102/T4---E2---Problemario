@@ -2,12 +2,12 @@
 Desarrolla ejercicios que involucren cálculos numéricos para solución de problemas que apliquen diferenciación e integración, empleando los siguientes métodos: Método de trapecio, Regla se Simpson y Método de la Cuadratura Gaussiana y documenta problemario a entregar.
 
 # MetodosNumericosTema3Problemario
-## Problemario Gabriel Hernández
 
 ### Equipo
 
-- Gabriel Hernández
-- 
+- Italia Yoselin Lozada Olvera
+- Gabriel Hernandez Zavala
+- Brandon Hernández Espinosa
 
 
 ## Método de trapecio
