@@ -28,15 +28,13 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 ### Ejercicios en java
 
-[Ejemplo 1](https://github.com/GABOHDEZ2001/ProblemarioTema3/blob/main/ProblemarioTema3/src/EliminacionGaussianaEjemplo1.java)
+[Ejemplo 1](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeTrapecio/MetodoTrapecio1.java)
 
-[Ejemplo 2](https://github.com/GABOHDEZ2001/ProblemarioTema3/blob/main/ProblemarioTema3/src/EliminacionGaussianaEjemplo2.java)
+[Ejemplo 2](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeTrapecio/MetodoTrapecio2.java)
 
-[Ejemplo 3](https://github.com/GABOHDEZ2001/ProblemarioTema3/blob/main/ProblemarioTema3/src/EliminacionGaussianaEjemplo3.java)
+[Ejemplo 3](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeTrapecio/MetodoTrapecio3.java)
 
-[Ejemplo 4](https://github.com/GABOHDEZ2001/ProblemarioTema3/blob/main/ProblemarioTema3a/src/EliminacionGaussianaEjemplo4.java)
 
-[Ejemplo 5](https://github.com/GABOHDEZ2001/ProblemarioTema3/blob/main/ProblemarioTema3a/src/EliminacionGaussianaEjemplo5.java)
 
 
 
