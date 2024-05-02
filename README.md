@@ -13,7 +13,7 @@ Desarrolla ejercicios que involucren cálculos numéricos para solución de prob
 ## Método de trapecio
 ### Descripcion 
 
-El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
+Este método es una técnica de integración numérica que aproxima el valor de una integral mediante la evaluación de la función en puntos equidistantes y el uso de la regla del trapecio para calcular el área bajo la curva.
 
 ### Pseudocódigo 
 ```
@@ -97,8 +97,7 @@ print("Resultado de la integración usando el método del trapecio:", resultado)
 
 ## Regla de Simpson
 ### Descripcion 
-
-El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
+Es un método de integración numérica que utiliza polinomios de segundo grado (parábolas) para aproximar el valor de una integral definida. Este método proporciona una mejor aproximación que el método del trapecio, ya que utiliza una aproximación de segundo orden
 
 ### Pseudocódigo 
 ```
@@ -185,7 +184,8 @@ print("Resultado de la integración usando la regla de Simpson:", resultado)
 ## Método de la Cuadratura Gaussiana 
 ### Descripcion 
 
-El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
+Este método es una técnica avanzada de integración numérica que utiliza una selección cuidadosa de puntos de evaluación y pesos para obtener una aproximación precisa de una integral definida. La cuadratura gaussiana es particularmente efectiva para funciones suaves y continuas.
+
 
 ### Pseudocódigo 
 
