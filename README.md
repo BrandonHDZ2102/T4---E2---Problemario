@@ -86,7 +86,42 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 ### Implementacion 
 - Implementacion en Python
+  ```
+def f(x):
+    # Define la función que deseas integrar
+    return x**2  # Ejemplo: x^2
 
+def regla_simpson(a, b, n):
+    # Calcula el ancho de cada subintervalo
+    h = (b - a) / n
+    
+    # Inicializa la suma
+    suma = 0
+    
+    # Calcula la suma para los puntos impares
+    for i in range(1, n, 2):
+        xi = a + i * h
+        suma += 4 * f(xi)
+    
+    # Calcula la suma para los puntos pares
+    for i in range(2, n-1, 2):
+        xi = a + i * h
+        suma += 2 * f(xi)
+    
+    # Aplica la fórmula de la regla de Simpson
+    resultado = h / 3 * (f(a) + f(b) + suma)
+    return resultado
+
+# Ejemplo de uso
+a = 0  # Límite inferior
+b = 1  # Límite superior
+n = 1000  # Número de subintervalos
+
+resultado = regla_simpson(a, b, n)
+print("Resultado de la integración usando la regla de Simpson:", resultado)
+
+    ```
+  
 
         
 
@@ -119,8 +154,36 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 ### Implementacion 
 - Implementacion en Python
 
+ ```
+import numpy as np
 
-        
+def f(x):
+    # Define la función que deseas integrar
+    return x**2  # Ejemplo: x^2
+
+def cuadratura_gaussiana(f, a, b, n):
+    # Obtiene los nodos y pesos de Gauss-Legendre
+    nodos, pesos = np.polynomial.legendre.leggauss(n)
+    
+    # Transforma los nodos de [-1, 1] al intervalo [a, b]
+    x_transformed = 0.5 * (b - a) * nodos + 0.5 * (a + b)
+    
+    # Calcula la suma ponderada de los valores de la función en los nodos transformados
+    suma = sum(pesos * f(x_transformed))
+    
+    # Aplica el factor de escala para el intervalo [a, b]
+    resultado = 0.5 * (b - a) * suma
+    return resultado
+
+# Ejemplo de uso
+a = 0  # Límite inferior
+b = 1  # Límite superior
+n = 5  # Orden de la cuadratura
+
+resultado = cuadratura_gaussiana(f, a, b, n)
+print("Resultado de la integración usando Cuadratura Gaussiana:", resultado)
+
+ ```
 
 ### Ejercicios en java
 
