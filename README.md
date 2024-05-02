@@ -101,7 +101,29 @@ print("Resultado de la integración usando el método del trapecio:", resultado)
 El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
 
 ### Pseudocódigo 
+```
+Función funcion(x):
+    retornar 2 * x + 3 // Función lineal: f(x) = 2x + 3
 
+Función reglaDeSimpson(a, b, n):
+    h = (b - a) / n
+    sum = funcion(a) + funcion(b)
+
+    Para cada i de 1 a n-1, incrementando de 2 en 2:
+        sum += 4 * funcion(a + i * h)
+
+    Para cada i de 2 a n-1, incrementando de 2 en 2:
+        sum += 2 * funcion(a + i * h)
+
+    retornar (h / 3) * sum
+
+a = 0 // Límite inferior
+b = 4 // Límite superior
+n = 100 // Número de intervalos
+
+Imprimir "Resultado: " + reglaDeSimpson(a, b, n)
+
+```
 
 
 
@@ -167,8 +189,28 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 ### Pseudocódigo 
 
+```
+Función cuadraturaGaussiana(funcion, limiteInferior, limiteSuperior, numeroPuntos):
+    nodos = [-0.9324695142, -0.6612093865, -0.2386191861, 0.2386191861, 0.6612093865, 0.9324695142] // Nodos predefinidos para seis puntos
+    pesos = [0.1713244924, 0.3607615730, 0.4679139346, 0.4679139346, 0.3607615730, 0.1713244924] // Pesos predefinidos para seis puntos
 
+    suma = 0
 
+    Para cada i de 0 a numeroPuntos-1:
+        transformacion = (limiteSuperior - limiteInferior) / 2 * nodos[i] + (limiteSuperior + limiteInferior) / 2
+        suma += pesos[i] * funcion(transformacion)
+
+    retornar (limiteSuperior - limiteInferior) / 2 * suma
+
+funcion = función(x) -> 1 / (1 + x * x)
+limiteInferior = 0
+limiteSuperior = 1
+numeroPuntos = 6 // Utilizando seis puntos para la cuadratura gaussiana
+
+resultado = cuadraturaGaussiana(funcion, limiteInferior, limiteSuperior, numeroPuntos)
+Imprimir "Resultado de la integral: " + resultado
+
+```
 
 ### Implementacion 
 - Implementacion en Python
