@@ -23,24 +23,24 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 ### Implementacion 
 - Implementacion en Python
 
-#de
-def f(x):
+
+    def f(x):
     #Define la función que deseas integrar
     return x**2  # Ejemplo: x^2
 
-def metodo_trapecio(a, b, n):
-    # Calcula el ancho de cada subintervalo
+    def metodo_trapecio(a, b, n):
+    #Calcula el ancho de cada subintervalo
     h = (b - a) / n
     
-    # Inicializa la suma
+    #Inicializa la suma
     suma = 0
     
-    # Calcula la suma de las áreas de los trapecios
+    #Calcula la suma de las áreas de los trapecios
     for i in range(1, n):
         xi = a + i * h
         suma += f(xi)
     
-    # Aplica la fórmula del método del trapecio
+    #Aplica la fórmula del método del trapecio
     resultado = h * (f(a) / 2 + f(b) / 2 + suma)
     return resultado
 
