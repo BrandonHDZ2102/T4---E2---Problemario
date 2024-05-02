@@ -23,6 +23,7 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 ### Implementacion 
 - Implementacion en Python
 
+#de
 def f(x):
     #Define la función que deseas integrar
     return x**2  # Ejemplo: x^2
