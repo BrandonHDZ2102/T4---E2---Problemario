@@ -40,3 +40,35 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 
 ==========================================================================================================================
+
+## Regla de Simpson
+### Descripcion 
+
+El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
+
+### Pseudocódigo 
+
+
+
+
+### Implementacion 
+- Implementacion en Python
+
+
+        
+
+### Ejercicios en java
+
+[Ejemplo 1](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson1.java)
+
+[Ejemplo 2](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson2.java)
+
+[Ejemplo 3](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson3.java)
+
+[Ejemplo 4](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson4.java)
+
+[Ejemplo 5](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson5.java)
+
+
+==========================================================================================================================
+
