@@ -86,7 +86,8 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 ### Implementacion 
 - Implementacion en Python
-  ```
+
+```
 def f(x):
     # Define la función que deseas integrar
     return x**2  # Ejemplo: x^2
@@ -112,7 +113,7 @@ def regla_simpson(a, b, n):
     resultado = h / 3 * (f(a) + f(b) + suma)
     return resultado
 
-# Ejemplo de uso
+#Ejemplo de uso
 a = 0  # Límite inferior
 b = 1  # Límite superior
 n = 1000  # Número de subintervalos
@@ -120,11 +121,8 @@ n = 1000  # Número de subintervalos
 resultado = regla_simpson(a, b, n)
 print("Resultado de la integración usando la regla de Simpson:", resultado)
 
-    ```
-  
-
-        
-
+```   
+    
 ### Ejercicios en java
 
 [Ejemplo 1](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/ReglaDeSimpson/ReglaDeSimpson1.java)
