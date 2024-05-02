@@ -72,3 +72,34 @@ El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las pr
 
 ==========================================================================================================================
 
+
+## Método de la Cuadratura Gaussiana 
+### Descripcion 
+
+El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
+
+### Pseudocódigo 
+
+
+
+
+### Implementacion 
+- Implementacion en Python
+
+
+        
+
+### Ejercicios en java
+
+[Ejemplo 1](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeLaCuadraturaGaussiana/M%C3%A9todoDeLaCuadraturaGaussiana1.java)
+
+[Ejemplo 2](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeLaCuadraturaGaussiana/M%C3%A9todoDeLaCuadraturaGaussiana2.java)
+
+[Ejemplo 3](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeLaCuadraturaGaussiana/M%C3%A9todoDeLaCuadraturaGaussiana3.java)
+
+[Ejemplo 4](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeLaCuadraturaGaussiana/M%C3%A9todoDeLaCuadraturaGaussiana4.java)
+
+[Ejemplo 5](https://github.com/GABOHDEZ2001/PROBLEMARIOTEMA4METODOS/blob/main/T4-E2-Problemario/src/M%C3%A9todoDeLaCuadraturaGaussiana/M%C3%A9todoDeLaCuadraturaGaussiana5.java)
+
+
+
