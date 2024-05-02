@@ -16,8 +16,29 @@ Desarrolla ejercicios que involucren cálculos numéricos para solución de prob
 El Método de Eliminación de Gauss consiste en utilizar reiteradas veces las propiedades de los sistemas lineales, que hemos visto ante- riormente, para transformar un sistema de ecuaciones lineales en otro equivalente (con las mismas soluciones) pero que sea triangular.
 
 ### Pseudocódigo 
+```
+Función MetodoTrapecio(a, b, n, f):
+    h = (b - a) / n
+    sum = 0.5 * (f(a) + f(b))
 
+    Para cada i de 1 a n-1:
+        x = a + i * h
+        sum += f(x)
 
+    retornar h * sum
+
+Función funcionEjemplo(x):
+    retornar x * x
+
+a = 0 // Límite inferior de integración
+b = 2 // Límite superior de integración
+n = 100 // Número de trapecios
+
+integral = MetodoTrapecio(a, b, n, funcionEjemplo)
+
+Imprimir "La aproximación de la integral es: " + integral
+
+```
 
 
 ### Implementacion 
